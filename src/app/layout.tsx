@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import { DM_Sans, Mulish } from 'next/font/google'
 import "./globals.css";
 import Header from "@/components/layout/header";
 
+const dmsans = DM_Sans({variable: '--font-dmsans', subsets: ['latin']})
+const muslish = Mulish({variable: '--font-mulish', subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body data-theme="light">
+      <body data-theme="light" className={`${muslish.className} ${dmsans.className} ${muslish.variable} ${dmsans.variable}`}>
         <Header />
         {children}
       </body>

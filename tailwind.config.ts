@@ -10,11 +10,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        button: "#ff7143",
+        button: "#FF7143",
         terrakotta: "#9F3919",
         "white-smoke": "#F8F8F8",
         "dim-gray": "#696871",
         "precious-persimmon": "#FF7143",
+        "ghost-white": "#F7F7FB",
+        "deep-blue": "#5454D4"
+
       },
       container: {
         center: true,
@@ -26,6 +29,10 @@ const config: Config = {
           '2xl': '6rem',
         },
       },
+      fontFamily: {
+        dmsans: ['var(--font-dmsans)'],
+        mulish: ['var(--font-mulish)']
+      }
     },
   },
   plugins: [

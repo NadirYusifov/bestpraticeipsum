@@ -4,6 +4,17 @@ function Pricing() {
     <>
       <section className="px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16" id="pricing">
         <div className="container">
+
+<div className="flex justify-between items-center mb-[98px]">
+  <div className="pricing-header font-dmsans">
+    <h2 className="text-[60px] w-[570px] leading-[70px] font-bold text-black">Get the right plan for future product.</h2>
+  </div> 
+  <div className="place-content-center font-dmsans pricing-header-btn h-[60px] bg-ghost-white rounded-lg px-2 py-2">
+    <button className="bg-deep-blue text-white px-10 py-3 rounded-s-lg">Yearly</button>
+    <button className="px-10 py-3 font-semibold">Mounth</button>
+  </div>
+</div>
+
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8 ">
             <div className="pricing-card-first bg-white-smoke rounded-2xl shadow-sm">
               <div className="p-6 sm:px-8 text-center">
