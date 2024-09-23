@@ -15,8 +15,8 @@ function FAQ() {
                                     <Image width={150} height={30} alt='benchmarkslogo' src={Benchmarks} />
                                 </div>
                                 <div className='faq-benchmarks-content text-center max-sm:px-8'>
-                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold'>Benchmarks</h2>
-                                    <p>See how you stack up against comparable companies in similar stages.</p>
+                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold font-dmsans'>Benchmarks</h2>
+                                    <p className='font-mulish'>See how you stack up against comparable companies in similar stages.</p>
                                 </div>
                             </div>
                             <div className='faq-benchmarks flex flex-col justify-center items-center'>
@@ -24,8 +24,8 @@ function FAQ() {
                                     <Image width={150} height={30} alt='benchmarkslogo' src={PricingAudit} />
                                 </div>
                                 <div className='faq-benchmarks-content text-center max-sm:px-8'>
-                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold'>Pricing Audit</h2>
-                                    <p>Benchmark the health of your monetization and pricing strategy.</p>
+                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold font-dmsans'>Pricing Audit</h2>
+                                    <p className='font-mulish'>Benchmark the health of your monetization and pricing strategy.</p>
                                 </div>
                             </div>
                             <div className='faq-benchmarks flex flex-col justify-center items-center'>
@@ -33,8 +33,8 @@ function FAQ() {
                                     <Image width={150} height={30} alt='benchmarkslogo' src={Retention} />
                                 </div>
                                 <div className='faq-benchmarks-content text-center max-sm:px-8'>
-                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold'>Retention Audit</h2>
-                                    <p>Audit where revenue leakage exists and where you can increase retention.</p>
+                                    <h2 className='text-[24px] mb-5 mt-3 font-semibold font-dmsans'>Retention Audit</h2>
+                                    <p className='font-mulish'>Audit where revenue leakage exists and where you can increase retention.</p>
                                 </div>
                             </div>
                         </div>

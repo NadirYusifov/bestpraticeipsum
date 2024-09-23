@@ -9,12 +9,12 @@ function HeroSection() {
         <div className="container">
           <div className='hero-section-wrapper grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 place-content-center items-center'>
           <div className='hero-content-text'>
-            <h1 className="text-[70px] tracking-thight leading-[77px] font-bold lg:text-[80px]">Grow your subscription business</h1>
-            <p className="py-6 text-[20px] font-normal -tracking-tight text-left leading-8 mt-5 mb-7">
+            <h1 className="text-[70px] tracking-thight leading-[77px] font-bold lg:text-[80px] font-dmsans">Grow your subscription business</h1>
+            <p className="py-6 text-[20px] font-normal -tracking-tight text-left leading-8 mt-5 mb-7 font-mulish">
             Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
             </p>
            <div className='btn-wrapper flex'>
-            <button className="btn place-content-center px-10 py-6 mr-10 hover:bg-indigo-700 text-white bg-indigo-500 leading-5">Get Started</button>
+            <button className="btn place-content-center px-10 py-6 mr-10 hover:bg-indigo-700 text-white bg-indigo-500 leading-5 font-dmsans">Get Started</button>
             <Image width={45} height={45} alt='downarrow' src={DownArrow} className='cursor-pointer'/>
            </div>
           </div>
