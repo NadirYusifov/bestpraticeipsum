@@ -17,7 +17,7 @@ function AboutSection() {
           <div className='home-about-content-text max-sm:mt-5 max-sm:mb-20'>
             <h1 className="text-[50px] tracking-widest leading-[50px] font-bold font-dmsans">Subscription index</h1>
             <p className="py-6 text-[20px] -tracking-tight font-mulish">
-            A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.
+            A daily dataset to keep you up to date on subscription market trends and what &apos s happening in your vertical.
             </p>
            <div className='btn-wrapper'>
             <p className="mr-10 text-indigo-500 cursor-pointer font-dmsans">Learn More</p>
